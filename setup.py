@@ -29,7 +29,7 @@ setup(
     long_description=readme + "\n\n" + changes,
     long_description_content_type="text/x-rst",
     packages=["pdal"],
-    install_requires=["numpy"],
+    install_requires=["numpy<2"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
